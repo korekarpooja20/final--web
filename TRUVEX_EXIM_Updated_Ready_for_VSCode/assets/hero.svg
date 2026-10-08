@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<defs>
+ <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#070a0e"/><stop offset=".55" stop-color="#111820"/><stop offset="1" stop-color="#26333d"/></linearGradient>
+ <linearGradient id="steel" x1="0" x2="1"><stop stop-color="#4e5961"/><stop offset=".25" stop-color="#e7edf0"/><stop offset=".48" stop-color="#68747c"/><stop offset=".72" stop-color="#f4f7f8"/><stop offset="1" stop-color="#465159"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<circle cx="1220" cy="210" r="190" fill="#4db7ff" opacity=".10" filter="url(#glow)"/>
+<g fill="none" stroke="url(#steel)" stroke-linecap="round">
+ <path d="M80 650 C280 350 450 360 600 580 S930 850 1160 520 S1410 280 1580 420" stroke-width="92"/>
+ <path d="M80 650 C280 350 450 360 600 580 S930 850 1160 520 S1410 280 1580 420" stroke="#11171c" stroke-width="54"/>
+ <path d="M210 820 C390 600 570 600 760 750 S1120 900 1350 650" stroke-width="46"/>
+</g>
+<g fill="#dfe7eb" opacity=".8">
+ <circle cx="610" cy="580" r="10"/><circle cx="1160" cy="520" r="10"/><circle cx="760" cy="750" r="8"/>
+</g>
+<text x="90" y="120" fill="#9fb1bd" font-family="Arial" font-size="22" letter-spacing="7">AUTOMOTIVE • ENGINEERING • SOURCING</text>
+</svg>
