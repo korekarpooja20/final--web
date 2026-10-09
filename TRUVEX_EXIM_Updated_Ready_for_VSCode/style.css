@@ -248,5 +248,50 @@ textarea::placeholder {
     display: block;
     margin-bottom: 8px;
 }
+```css
+/* Compact TRUVEX EXIM Footer */
+.footer {
+  padding: 18px 0 10px;
+}
+
+.footer .footer-content {
+  text-align: left;
+}
+
+.footer .brand.brand-right {
+  margin: 0 0 10px auto;
+  gap: 7px;
+}
+
+.footer .brand.brand-right img {
+  width: 38px;
+  height: 38px;
+}
+
+.footer .brand.brand-right b {
+  font-size: 14px;
+}
+
+.footer .brand.brand-right small {
+  font-size: 8px;
+}
+
+.footer .footer-content p {
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 5px 0;
+}
+
+.footer .footer-content h3 {
+  font-size: 13px;
+  margin: 10px 0 4px;
+}
+
+.footer .footer-content .copyright {
+  font-size: 11px;
+  padding-top: 8px;
+  margin-top: 12px;
+}
 ```
+
 
