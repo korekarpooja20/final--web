@@ -23,3 +23,218 @@
 .btn-primary{background:linear-gradient(135deg,#ff4d00,#ff7200);color:#fff}
 .card:hover{transform:translateY(-5px);border-color:#ff5a12;transition:.25s ease}
 @media(max-width:900px){.brand-right img{width:50px;height:50px}.brand-right span b{font-size:14px}.brand-right span small{font-size:7px}}
+```css
+/* TRUVEX EXIM - Professional Light Theme */
+
+:root {
+  --bg: #FFFFFF;
+  --panel: #F3F6F9;
+  --panel2: #FFFFFF;
+  --text: #0B2239;
+  --muted: #526273;
+  --line: #DCE4EB;
+  --accent: #F56616;
+  --max: 1180px;
+}
+
+/* Main background and text */
+body {
+  background: #FFFFFF;
+  color: #0B2239;
+}
+
+/* Header and navigation */
+.topbar,
+.nav,
+.nav-links {
+  background: #0B2239;
+}
+
+.topbar {
+  color: #FFFFFF;
+  border-color: #263F56;
+}
+
+.nav {
+  border-color: #263F56;
+}
+
+.nav-links a {
+  color: #FFFFFF;
+}
+
+.nav-links a:hover {
+  color: #F56616;
+}
+
+/* Hero background */
+.hero {
+  background:
+    linear-gradient(
+      90deg,
+      rgba(11,34,57,0.88) 0%,
+      rgba(11,34,57,0.60) 45%,
+      rgba(11,34,57,0.12) 100%
+    ),
+    url("assets/hero.png") center/cover no-repeat;
+}
+
+.hero h1,
+.hero p {
+  color: #FFFFFF;
+}
+
+.eyebrow,
+.brand small,
+.brand-right span small {
+  color: #F56616;
+}
+
+/* Headings and paragraphs */
+h1, h2, h3, h4 {
+  color: #0B2239;
+}
+
+p,
+.muted {
+  color: #526273;
+}
+
+/* Buttons */
+.btn-primary {
+  background: #F56616;
+  color: #FFFFFF;
+  border-color: #F56616;
+}
+
+.btn-primary:hover {
+  background: #D94F08;
+}
+
+.btn-outline {
+  border-color: #F56616;
+  color: #FFFFFF;
+}
+
+/* Product and service cards */
+.card,
+.card-body {
+  background: #F3F6F9;
+}
+
+.card {
+  border: 1px solid #DCE4EB;
+}
+
+.card h3 {
+  color: #0B2239;
+}
+
+.card p {
+  color: #526273;
+}
+
+/* Statistics and materials */
+.stats,
+.materials {
+  background: #F3F6F9;
+}
+
+.stat strong,
+.stat span {
+  color: #0B2239;
+}
+
+.material {
+  background: #FFFFFF;
+  border-color: #DCE4EB;
+}
+
+.material strong {
+  color: #0B2239;
+}
+
+.tag {
+  background: #FFF0E7;
+  color: #0B2239;
+}
+
+/* Features and contact sections */
+.feature,
+.contact-box {
+  background: #FFFFFF;
+  border-color: #DCE4EB;
+}
+
+.feature b {
+  color: #0B2239;
+}
+
+.icon {
+  background: #FFF0E7;
+  color: #F56616;
+}
+
+/* Call-to-action section */
+.cta {
+  background: #0B2239;
+  border-color: #263F56;
+}
+
+.cta h2,
+.cta h3,
+.cta p {
+  color: #FFFFFF;
+}
+
+/* Contact form */
+label {
+  color: #0B2239;
+}
+
+input,
+select,
+textarea {
+  background: #FFFFFF;
+  color: #0B2239;
+  border-color: #C9D5DF;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #718096;
+}
+
+/* Footer */
+.footer {
+  background: #0B2239;
+  color: #F3F6F9;
+  border-color: #263F56;
+}
+
+.footer p,
+.footer a {
+  color: #DCE4EB;
+}
+
+.footer h2,
+.footer h3,
+.footer h4 {
+  color: #FFFFFF;
+}
+
+/* Floating buttons */
+.float-btn {
+  background: #0B2239;
+  color: #FFFFFF;
+  border-color: #F56616;
+}
+
+/* Mobile navigation */
+@media (max-width: 900px) {
+  .nav-links {
+    background: #0B2239;
+  }
+}
+```
+
