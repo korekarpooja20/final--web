@@ -237,15 +237,13 @@ textarea::placeholder {
   }
 }
 ```
-```css
 .footer-logo {
-    width: 80px;
-    max-height: 400px;
+    width: 100px;
     height: auto;
+    max-height: 40px;
     object-fit: contain;
     display: block;
     margin-bottom: 10px;
 }
-```
 
 
