@@ -317,7 +317,7 @@ textarea::placeholder {
 }
 
 /* Mobile responsive */
-@media (max-width: 600px) {
+@media (max-width: 60px) {
   .footer-bottom-logo {
     width: 48px;
     height: 32px;
