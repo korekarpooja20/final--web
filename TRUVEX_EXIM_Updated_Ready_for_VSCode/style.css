@@ -293,18 +293,39 @@ textarea::placeholder {
   margin-top: 12px;
 }
 ```css
-/* Small logo at the end of Contact page */
-.footer-logo {
-  text-align: center;
-  margin: 10px auto 5px;
+/* Footer copyright with small logo on right */
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-.footer-logo img {
+.footer-bottom p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.footer-bottom-logo {
   width: 70px;
-  height: auto;
-  max-height: 50px;
+  height: 50px;
   object-fit: contain;
-  display: inline-block;
+  display: block;
+  margin-left: auto;
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+  .footer-bottom-logo {
+    width: 48px;
+    height: 32px;
+  }
+
+  .footer-bottom p {
+    font-size: 11px;
+  }
 }
 
 
