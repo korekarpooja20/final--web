@@ -292,6 +292,19 @@ textarea::placeholder {
   padding-top: 8px;
   margin-top: 12px;
 }
-```
+```css
+/* Small logo at the end of Contact page */
+.footer-logo {
+  text-align: center;
+  margin: 10px auto 5px;
+}
+
+.footer-logo img {
+  width: 65px;
+  height: auto;
+  max-height: 45px;
+  object-fit: contain;
+  display: inline-block;
+}
 
 
