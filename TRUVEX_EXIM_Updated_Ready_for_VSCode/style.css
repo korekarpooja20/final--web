@@ -302,30 +302,27 @@ textarea::placeholder {
   padding: 12px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
-
 .footer-bottom p {
   margin: 0;
-  font-size: 13px;
+  font-size: 10px;
 }
 
 .footer-bottom-logo {
-  width: 70px;
-  height: 50px;
+  width: 30px;
+  height: 20px;
   object-fit: contain;
   display: block;
   margin-left: auto;
 }
 
 /* Mobile responsive */
-@media (max-width: 60px) {
+@media (max-width: 600px) {
   .footer-bottom-logo {
-    width: 48px;
-    height: 32px;
+    width: 25px;
+    height: 18px;
   }
 
   .footer-bottom p {
-    font-size: 11px;
+    font-size: 9px;
   }
 }
-
-
