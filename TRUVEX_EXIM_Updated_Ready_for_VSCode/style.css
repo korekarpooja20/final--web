@@ -236,3 +236,25 @@ textarea::placeholder {
     background: #0B2239;
   }
 }
+```css
+/* Contact page footer logo size */
+.footer .footer-logo img,
+.footer .brand-right img {
+    width: 20px !important;
+    height: 20px !important;
+    max-width: 20px !important;
+    max-height: 20px !important;
+    object-fit: contain !important;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .footer .footer-logo img,
+    .footer .brand-right img {
+        width: 16px !important;
+        height: 16px !important;
+        max-width: 16px !important;
+        max-height: 16px !important;
+    }
+}
+
