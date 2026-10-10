@@ -330,5 +330,29 @@ textarea::placeholder {
         max-height: 16px !important;
     }
 }
+```css
+/* Footer logo - make it very small */
+.footer .footer-content > a.brand.brand-right img {
+    width: 20px !important;
+    height: 20px !important;
+    max-width: 20px !important;
+    max-height: 20px !important;
+    object-fit: contain !important;
+    flex-shrink: 0 !important;
+}
+
+/* Reduce the space around footer logo */
+.footer .footer-content > a.brand.brand-right {
+    min-width: 0 !important;
+    gap: 5px !important;
+}
+
+/* Mobile logo */
+@media (max-width: 600px) {
+    .footer .footer-content > a.brand.brand-right img {
+        width: 16px !important;
+        height: 16px !important;
+    }
+}
 
 
