@@ -300,9 +300,9 @@ textarea::placeholder {
 }
 
 .footer-logo img {
-  width: 65px;
+  width: 70px;
   height: auto;
-  max-height: 45px;
+  max-height: 50px;
   object-fit: contain;
   display: inline-block;
 }
