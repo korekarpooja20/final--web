@@ -307,4 +307,28 @@ textarea::placeholder {
     height: 8px;
   }
 }
+```css
+/* Make ONLY the footer logo smaller */
+.footer .brand-right img,
+.footer img.footer-logo,
+.footer img.footer-bottom-logo {
+    width: 20px !important;
+    height: 20px !important;
+    max-width: 20px !important;
+    max-height: 20px !important;
+    object-fit: contain !important;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .footer .brand-right img,
+    .footer img.footer-logo,
+    .footer img.footer-bottom-logo {
+        width: 16px !important;
+        height: 16px !important;
+        max-width: 16px !important;
+        max-height: 16px !important;
+    }
+}
+
 
